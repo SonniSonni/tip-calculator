@@ -58,3 +58,15 @@ button{
 p {
     flex: .5;
 }
+
+#total-container {
+    display: flex;
+    align-items: baseline;
+}
+
+#total{
+    font-size: 24px;
+   font-weight: bold; 
+   margin-left: 10px;
+
+}
