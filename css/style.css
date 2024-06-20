@@ -37,6 +37,7 @@ label{
     width: 80%;
     text-align: left;
     flex: 1;
+    margin-top: 10px;
 }
 
 input{
