@@ -1,9 +1,12 @@
 let bill = 0;
 let tip = 0;
-let total = document.getElementById("total");
+let total = 0; 
 
 document.getElementById("calc-button").onclick = function(){
     bill = document.getElementById("bill").value;
-    tip = (document.getElementById("tip-percent").value / 100);
+    tip = +(document.getElementById("tip-percent").value / 100);
+
+    total = ( +bill + ( +bill * +tip ) )
+    console.log(total);
 };
 
