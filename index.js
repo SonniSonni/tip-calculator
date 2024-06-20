@@ -7,6 +7,7 @@ document.getElementById("calc-button").onclick = function(){
     tip = +(document.getElementById("tip-percent").value / 100);
 
     total = ( +bill + ( +bill * +tip ) )
-    console.log(total);
+    
+    document.getElementById("total").innerHTML = total;
 };
 
